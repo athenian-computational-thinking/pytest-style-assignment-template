@@ -13,6 +13,7 @@ flake8:  # Same as scanner.linter value. Other option is flake8
         - E731  # do not assign a lambda expression, use a def
         - C406  # Unnecessary list literal - rewrite as a dict literal.
         - E741  # ambiguous variable name
+        - E712  # is True vs ==True
 
 no_blank_comment: False  # If True, no comment is made on PR without any errors.
 only_mention_files_with_errors: True
